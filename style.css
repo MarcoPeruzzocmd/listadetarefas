@@ -1,0 +1,31 @@
+
+#adicionar{
+    background-color: rgb(32, 199, 32);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#adicionar:hover{
+    background-color: #243a49;
+    transition: 0.5s;
+}
+#Add-Task{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.excluir{
+    padding: 7px 14px;
+    background-color: rgb(160, 32, 32);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+.excluir:hover{
+    background-color: rgb(87, 42, 42);
+    transition: 0.5s;
+}

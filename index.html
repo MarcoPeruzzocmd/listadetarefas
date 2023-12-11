@@ -8,14 +8,22 @@
 </head>
 <body>
     <div class="lista-de-tarefas">
-    <h1>Lista de Tarefas</h1>
-    <input type="text" name="Add-Task" id="Add-Task" placeholder="Escreva uma tarefa">
-    <input type="button" value="Adicionar" id="adicionar">
-    <ul id="tarefas">
-
-    </ul> 
+        <h1>Lista de Tarefas</h1>
+        <input type="text" name="Add-Task" id="Add-Task" placeholder="Escreva uma tarefa">
+        <input type="button" value="Adicionar" id="adicionar">
+        
+        <div class="list-container">
+            <div class="lista-pendentes">
+                <h2>Tarefas Pendentes</h2>
+                <ul id="tarefas-pendentes"></ul>
+            </div>
+            
+            <div class="lista-finalizadas">
+                <h2>Tarefas Finalizadas</h2>
+                <ul id="tarefas-finalizadas"></ul>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
-    
 </body>
 </html>

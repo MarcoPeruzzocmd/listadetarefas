@@ -15,7 +15,7 @@ h1{
     margin-top: 50px;
 }
 #adicionar{
-    background-color: rgb(32, 199, 32);
+    background-color: rgb(63, 88, 201);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,7 +33,7 @@ h1{
 }
 .excluir{
     padding: 6px 12px;
-    background-color: rgb(160, 32, 32);
+    background-color: rgb(32, 199, 32);
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -43,6 +43,20 @@ h1{
 
 }
 .excluir:hover{
-    background-color: rgb(87, 42, 42);
+    background-color: #243a49;;
+    transition: 0.5s;
+}
+.desfazer{
+    background-color: rgb(202, 27, 27);
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 2px;
+    border: none;
+    color: white;
+}
+.desfazer:hover{
+    background-color: rgb(114, 40, 40);
     transition: 0.5s;
 }

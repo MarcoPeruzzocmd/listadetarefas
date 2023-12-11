@@ -1,4 +1,19 @@
-
+body{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+.lista-de-tarefas{
+    background-color: bisque;
+    padding: 120px;
+    max-width: 600px;
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+    margin-top: 50px;
+}
 #adicionar{
     background-color: rgb(32, 199, 32);
     color: white;
@@ -17,13 +32,15 @@
     border-radius: 5px;
 }
 .excluir{
-    padding: 7px 14px;
+    padding: 6px 12px;
     background-color: rgb(160, 32, 32);
     color: white;
     border-radius: 5px;
     cursor: pointer;
     border: none;
     font-size: 15px;
+    margin: 2px;
+
 }
 .excluir:hover{
     background-color: rgb(87, 42, 42);
